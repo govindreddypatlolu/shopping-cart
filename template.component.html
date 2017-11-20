@@ -1,0 +1,17 @@
+<h1>{{name}}cart</h1>
+<div style="padding:5px">
+   <ul class="nav nav-tabs">
+       <li routerLinkActive="active">
+<a [routerLink]="['/home']">Home</a>
+       </li>
+       <li routerLinkActive="active">
+            <a [routerLink]="['/cart']">Cart</a>   
+           </li>
+          <ul class="nav navbar-nav navbar-right">
+           <li><a href="#"><span id="demo" onclick="myFunction()"class="glyphicon glyphicon-shopping-cart"></span>shopping-cart</a></li>
+         </ul>
+       </ul>
+       
+   <br>
+  <router-outlet></router-outlet>
+</div>
